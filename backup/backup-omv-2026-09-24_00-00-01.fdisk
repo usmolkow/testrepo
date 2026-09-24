@@ -1,0 +1,12 @@
+Disk /dev/sda: 149.05 GiB, 160040803840 bytes, 312579695 sectors
+Disk model: MAXTOR STM316081
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0xb3b35a53
+
+Device     Boot     Start       End   Sectors   Size Id Type
+/dev/sda1  *         2048 310577151 310575104 148.1G 83 Linux
+/dev/sda2       310579198 312578047   1998850   976M  5 Extended
+/dev/sda5       310579200 312578047   1998848   976M 82 Linux swap / Solaris

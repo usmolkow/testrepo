@@ -1,0 +1,26 @@
+ii  openmediavault                    8.5.9-1                              all          openmediavault - The open network attached storage solution
+ii  openmediavault-apt                8.0.2-1                              all          openmediavault APT management plugin
+ii  openmediavault-apttool            8.0                                  all          apt tool plugin for OpenMediaVault.
+ii  openmediavault-backup             8.1                                  all          backup plugin for OpenMediaVault.
+ii  openmediavault-compose            8.1.27                               all          OpenMediaVault compose plugin
+ii  openmediavault-cputemp            8.2.2                                all          cpu temperature plugin for openmediavault
+ii  openmediavault-cterm              8.0.4                                all          openmediavault container exec terminal plugin
+ii  openmediavault-downloader         7.0                                  all          OpenMediaVault downloader plugin
+ii  openmediavault-filebrowser        8.0.6-1                              all          openmediavault File Browser plugin
+ii  openmediavault-ftp                8.0.4-1                              all          openmediavault FTP-Server plugin
+ii  openmediavault-hddfanctrl         8.0                                  all          hddfancontrol plugin for openmediavault
+ii  openmediavault-k8s                8.2.6-1                              all          openmediavault Kubernetes plugin
+ii  openmediavault-kernel             8.0.17                               all          kernel package
+ii  openmediavault-keyring            1.0.2-2                              all          GnuPG archive keys of the openmediavault archive
+ii  openmediavault-locate             8.0                                  all          locate plugin for OpenMediaVault.
+ii  openmediavault-lvm2               8.0.3-1                              all          openmediavault Logical Volume Manager (LVM2) plugin
+ii  openmediavault-md                 8.1.6-1                              all          openmediavault Linux MD (Software RAID) plugin
+ii  openmediavault-omvextrasorg       8.0.3                                all          OMV-Extras.org Package Repositories for OpenMediaVault
+ii  openmediavault-podman             8.0.1-1                              all          openmediavault Podman plugin
+ii  openmediavault-salt               8.1.0                                amd64        Extra Python packages required by Salt on openmediavault
+ii  openmediavault-sharerootfs        8.0.1-1                              all          openmediavault share root filesystem plugin
+ii  openmediavault-snmp               8.0.1-1                              all          openmediavault SNMP (Simple Network Management Protocol) plugin
+ii  openmediavault-tempmon            8.0.4                                all          temperature monitoring plugin for openmediavault
+ii  openmediavault-tftp               8.0.2-1                              all          openmediavault TFTP-Server plugin
+ii  openmediavault-tgt                8.0.1                                all          OpenMediaVault tgt plugin
+ii  openmediavault-wol                8.0                                  all          OpenMediaVault WOL plugin

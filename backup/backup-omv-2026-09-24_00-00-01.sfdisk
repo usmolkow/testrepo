@@ -1,0 +1,9 @@
+label: dos
+label-id: 0xb3b35a53
+device: /dev/sda
+unit: sectors
+sector-size: 512
+
+/dev/sda1 : start=        2048, size=   310575104, type=83, bootable
+/dev/sda2 : start=   310579198, size=     1998850, type=5
+/dev/sda5 : start=   310579200, size=     1998848, type=82

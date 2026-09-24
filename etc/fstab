@@ -1,0 +1,21 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# systemd generates mount units based on this file, see systemd.mount(5).
+# Please run 'systemctl daemon-reload' after making changes here.
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/sda1 during installation
+UUID=404ecd86-31e5-44b0-93a4-37db4804e075 /               ext4    errors=remount-ro 0       1
+# swap was on /dev/sda5 during installation
+UUID=c46d8320-df75-4055-a5e8-6174ac6b9f50 none            swap    sw              0       0
+# >>> [openmediavault]
+/dev/disk/by-uuid/bc9118b8-9ee2-436c-9082-7ef4f8b3db1a		/srv/dev-disk-by-uuid-bc9118b8-9ee2-436c-9082-7ef4f8b3db1a	ext4	defaults,nofail,user_xattr,usrquota,grpquota,acl	0 2
+/dev/disk/by-uuid/43c164b3-aad0-49d4-8da8-64b12a6f22be		/srv/dev-disk-by-uuid-43c164b3-aad0-49d4-8da8-64b12a6f22be	ext4	defaults,nofail,user_xattr,usrquota,grpquota,acl	0 2
+/dev/disk/by-uuid/63837df0-c8e9-4c74-9c9d-0e5f14dcd09a		/srv/dev-disk-by-uuid-63837df0-c8e9-4c74-9c9d-0e5f14dcd09a	ext4	defaults,nofail,user_xattr,usrquota,grpquota,acl	0 2
+/dev/disk/by-uuid/de93fdc2-7ff5-4986-9e75-1514fe8141dc		/srv/dev-disk-by-uuid-de93fdc2-7ff5-4986-9e75-1514fe8141dc	ext4	defaults,nofail,user_xattr,usrquota,grpquota,acl	0 2
+/srv/dev-disk-by-uuid-43c164b3-aad0-49d4-8da8-64b12a6f22be/backups/		/export/backups	none	bind,nofail	0 0
+# <<< [openmediavault]
